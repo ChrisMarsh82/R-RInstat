@@ -1,0 +1,86 @@
+.exprel                 Accurately compute (exp(x) - 1) / x
+.log1mexp               Accurately compute log(1-exp(x))
+.log1prel               Accurately compute log(1 + x) / x
+.specfun.safe.product   Compute pmax(x y, -1) in such a way that zeros
+                        in x beat infinities in y.
+AIC.evmOpt              Information Criteria
+JointExceedanceCurve    Joint exceedance curves
+MCS                     Multivariate conditional Spearman's rho
+addExcesses             Annotate a threshold selection ggplot
+bootmex                 Bootstrap a conditional multivariate extreme
+                        values model
+chi                     Measures of extremal dependence
+copula                  Calculate the copula of a matrix of variables
+cv                      Cross-validation for a model object
+cv.evmOpt               Cross-validation for the shape parameter in an
+                        extreme values model
+degp3                   Density, cumulative density, quantiles and
+                        random number generation for the extended
+                        generalized Pareto distribution 3
+dgev                    Density, cumulative density, quantiles and
+                        random number generation for the generalized
+                        extreme value distribution
+dgpd                    Density, cumulative density, quantiles and
+                        random number generation for the generalized
+                        Pareto distribution
+dgumbel                 The Gumbel distribution
+edf                     Compute empirical distribution function
+egp3RangeFit            Estimate the EGP3 distribution power parameter
+                        over a range of thresholds
+endPoint                Calculate upper end point for a fitted extreme
+                        value model
+evm                     Extreme value modelling
+evmBoot                 Bootstrap an evmOpt fit
+evmSim                  MCMC simulation around an evmOpt fit
+evmSimSetSeed           Set the seed from a fitted evmSim object.
+extremalIndex           Extremal index estimation and automatic
+                        declustering
+ggplot.copula           Fancy plotting for copulas
+ggplot.declustered      Diagnostic plots for an declustered object
+ggplot.evmBoot          Diagnostic plots for the replicate estimated
+                        parameter values in an evmBoot object
+ggplot.evmOpt           Diagnostic plots for an evm object
+ggplot.evmSim           Diagnostic plots for the Markov chains in an
+                        evmSim object
+ggplot.mex              Conditional multivariate extreme values
+                        modelling
+ggplot.migpd            Fit multiple independent generalized Pareto
+                        models
+ggplot.rl.evmOpt        Plotting function for return level estimation
+gpd.prof                Profile likelihood based confidence intervals
+                        for GPD
+gpdRangeFit             Estimate generalized Pareto distribution
+                        parameters over a range of values
+liver                   Liver related laboratory data
+logLik.evmOpt           Log-likelihood for evmOpt objects
+makeReferenceMarginalDistribution
+                        Provide full marginal reference distribution
+                        for for maringal transformation
+mexDependence           Estimate the dependence parameters in a
+                        conditional multivariate extreme values model
+mexMonteCarlo           Simulation from dependence models
+mexRangeFit             Estimate dependence parameters in a conditional
+                        multivariate extreme values model over a range
+                        of thresholds.
+migpdCoefs              Change values of parameters in a migpd object
+mrl                     Mean residual life plot
+plot.copula             Plot copulas
+plot.evmOpt             Plots for evmOpt objects
+plot.evmSim             Plots for evmSim objects
+plot.lp.evmOpt          Predict return levels from extreme value
+                        models, or obtain the linear predictors.
+plot.rl.evmOpt          Return levels
+print.evmOpt            Print evmOpt objects
+rFrechet                Extreme Value random process generation.
+rMaxAR                  Extreme Value random process generation.
+rain, wavesurge and portpirie
+                        Rain, wavesurge, portpirie and nidd datasets.
+rglo                    Generalized logistic distribution
+simulate.evmOpt         Simulate from a fitted evm object
+summer and winter data
+                        Air pollution data, separately for summer and
+                        winter months
+texmex-package          Extreme value modelling
+texmexFamily            Create families of distributions
+thinAndBurn             Process Metropolis output from extreme value
+                        model fitting to discard unwanted observations.

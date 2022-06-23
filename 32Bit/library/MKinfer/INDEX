@@ -1,0 +1,20 @@
+MKinfer-package         Inferential Statistics.
+binomCI                 Confidence Intervals for Binomial Proportions
+binomDiffCI             Confidence Intervals for Difference of Two
+                        Binomial Proportions
+boot.t.test             Bootstrap t-Test
+cvCI                    Confidence Intervals for Coefficient of
+                        Variation
+hsu.t.test              Hsu Two-Sample t-Test
+imputeSD                Impute Standard Deviations for Changes from
+                        Baseline
+mi.t.test               Multiple Imputation Student's t-Test
+normCI                  Confidence Intervals for Mean and Standard
+                        Deviation
+normDiffCI              Confidence Intervals for Difference of Means
+pairwise.fun            Compute pairwise values for a given function
+perm.t.test             Permutation t-Test
+quantileCI              Confidence Intervals for Quantiles
+rm.oneway.test          Test for Equal Means in a Repeated Measures
+                        One-Way Layout
+volcano                 Volcano Plots

@@ -1,0 +1,10 @@
+QuadTree-class          Class '"QuadTree"'
+SearchTree-class        Class '"SearchTree"'
+createTree              Create a Search Tree Index
+knnLookup               Perform k-Nearest Neighbors Lookup Using a
+                        Search Tree
+knnLookup-methods       ~~ Methods for Function 'knnLookup' in Package
+                        'SearchTrees' ~~
+rectLookup              Perform Rectangular Lookup in 2d Space
+rectLookup-methods      Methods for Function 'rectLookup' in Package
+                        'SearchTrees'

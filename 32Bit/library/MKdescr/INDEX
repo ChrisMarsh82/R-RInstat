@@ -1,0 +1,20 @@
+CV                      Compute CV
+IQrange                 The Interquartile Range
+MKdescr-package         Descriptive Statistics.
+SMD                     Compute Standardized Mean Difference (SMD)
+SNR                     Compute SNR
+fiveNS                  Five-Number Summaries
+glog                    Compute Generalized Logarithm
+glog_trans              New Transformations for Use with ggplot2
+                        Package
+illustrate.boxplot      Illustrate Box-and-Whisker Plots
+illustrate.quantile     Illustrate Quantiles
+meanAD                  The Mean Absolute Deviation
+melt.long               Transform data.frame to Long Form
+qboxplot                Box Plots
+qbxp.stats              Box Plot Statistics
+simCorVars              Simulate correlated variables.
+skippedMean             Hyber-type Skipped Mean and SD
+thyroid                 Plot TSH, fT3 and fT4 with respect to reference
+                        range.
+zscore                  Compute z-Scores

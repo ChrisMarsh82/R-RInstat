@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Plot of Power Functions</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body><div class="container">
+
+<table width="100%" summary="page for powerplot {DAAG}"><tr><td>powerplot {DAAG}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Plot of Power Functions</h2>
+
+<h3>Description</h3>
+
+<p>This function plots powers of a variable on the interval [0,10].
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+powerplot(expr="x^2", xlab="x", ylab="y", ...)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>expr</code></td>
+<td>
+<p>Functional form to be plotted</p>
+</td></tr>
+<tr valign="top"><td><code>xlab</code></td>
+<td>
+<p>x-axis label</p>
+</td></tr>
+<tr valign="top"><td><code>ylab</code></td>
+<td>
+<p>y-axis label</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>Further arguments, to be passed to <code>plot()</code></p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>Other expressions such as &quot;sin(x)&quot; and &quot;cos(x)&quot;, etc.
+could also be plotted with this function, but results are
+not guaranteed.
+</p>
+
+
+<h3>Value</h3>
+
+<p>A plot of the given expression on the interval [0,10].
+</p>
+
+
+<h3>Author(s)</h3>
+
+<p>J.H. Maindonald</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+   oldpar &lt;- par(mfrow = c(2, 3), mar = par()$mar - c(
+        1, 1, 1.0, 1),  mgp = c(1.5, 0.5, 0),  oma=c(0,1,0,1))
+#    on.exit(par(oldpar))
+    powerplot(expr="sqrt(x)", xlab="")
+    powerplot(expr="x^0.25", xlab="", ylab="")
+    powerplot(expr="log(x)", xlab="", ylab="")
+    powerplot(expr="x^2")
+    powerplot(expr="x^4", ylab="")
+    powerplot(expr="exp(x)", ylab="")
+par(oldpar)</pre>
+
+<hr /><div style="text-align: center;">[Package <em>DAAG</em> version 1.25.4 <a href="00Index.html">Index</a>]</div>
+</div></body></html>

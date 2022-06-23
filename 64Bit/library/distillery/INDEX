@@ -1,0 +1,12 @@
+MatrixSqrt              Square-Root of a Square Matrix
+booter                  Bootstrap Resampling
+ci                      Find Confidence Intervals
+ci.booted               Bootstrap Confidence Intervals
+datagrabber             Get Original Data from an R Object
+distill                 Distill An Object
+distillery-package      distillery: Methods to Distill Information from
+                        R Objects
+is.even                 Identify Even or Odd Numbers
+is.formula              Is the R Object a Formula
+pbooter                 Parametric Bootstrap Resampling
+tibber                  Test-Inversion Bootstrap

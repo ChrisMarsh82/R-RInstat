@@ -1,0 +1,34 @@
++,cfStation,cfStation-method
+                        Arithmetic Operators for Clifro Objects
+[[,dataFrame-method     Subsetting Methods for Clifro Objects
+cfDatatype-class        The Clifro Datatype Object
+cfStation-class         The Clifro Station Object
+cfUser-class            The Clifro User Object
+cf_curl_opts            Store curl options for use within 'clifro'
+cf_find_station         Search for Clifro Stations
+cf_last_query           Retrieve Last Query Result from CliFlo
+cf_query                Retrieve Data from the National Climate
+                        Database
+cf_save_kml             Save Clifro Station Information to a KML File
+clifro                  From CliFlo to 'clifro': Enhancing The National
+                        Climate Database With R
+dimnames,dataFrame-method
+                        Dimension Attributes of a Clifro Object
+plot,cfEarthTemp,missing-method
+                        Plot Earth Temperatures
+plot,cfPressure,missing-method
+                        Plot Mean Sea Level Atmospheric Pressure
+plot,cfRain,missing-method
+                        Plot Rain Time series
+plot,cfScreenObs,missing-method
+                        Plot Screen Observations
+plot,cfSunshine,missing-method
+                        Plot Sunshine Hours
+plot,cfTemp,missing-method
+                        Plot Temperature Range
+plot,cfWind,missing-method
+                        Plot Clifro Wind Objects
+plot.cfDataList         Default Clifro Plotting
+summary,cfUser-method   Summarise User Information
+summary,cfWind-method   Summarise Clifro Wind Data
+windrose                Plot a windrose

@@ -1,0 +1,22 @@
+lateformeeting          a "dirty" data set to demonstrate rrefine
+                        features
+lfm_clean               a "clean" version of the lateformeeting sample
+                        data set
+refine_add_column       Add column to OpenRefine project
+refine_check            Helper function to check if 'rrefine' can
+                        connect to OpenRefine
+refine_delete           Delete project from OpenRefine
+refine_export           Export data from OpenRefine
+refine_id               Helper function to get OpenRefine project.id by
+                        project.name
+refine_metadata         Get all project metadata from OpenRefine
+refine_move_column      Move a column in OpenRefine project
+refine_operations       Apply operations to OpenRefine project
+refine_path             Helper function to configure and call path to
+                        OpenRefine
+refine_query            Helper function to build OpenRefine API query
+refine_remove_column    Remove column from OpenRefine project
+refine_rename_column    Rename a column in OpenRefine project
+refine_token            Helper function to retrieve CSFR token
+refine_upload           Upload a file to OpenRefine
+transform               Text transformation for OpenRefine project

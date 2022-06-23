@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Write an ASCII data file to the working directory.</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body><div class="container">
+
+<table width="100%" summary="page for datafile {DAAG}"><tr><td>datafile {DAAG}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Write an ASCII data file to the working directory.</h2>
+
+<h3>Description</h3>
+
+<p>Invoking this function writes one or more nominated files to the
+working directory.  In particular, it may be used to write the
+files 'fuel.txt' and 'fuel.csv' that are used in Chapter 1 of
+DAAGUR, and the files 'oneBadRow.txt' and 'scan-demo.txt' that
+are used in Chapter 14 of DAAGUR.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+datafile(file = c("fuel", "travelbooks"), datastore =
+                 DAAG::DAAGxdb, altstore = DAAG::zzDAAGxdb, showNames =
+                 FALSE)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>file</code></td>
+<td>
+<p>character; with the defaults for <code>datastore</code> and
+<code>altstore</code> the options are
+&quot;fuel&quot;, for fuel.txt;
+&quot;fuel.csv&quot;, for fuel.csv;
+&quot;oneBadRow&quot;, for oneBadRow.txt;
+&quot;scan-demo&quot;, for scan-demo.txt;
+&quot;molclock1&quot;, for molclock1.txt;
+&quot;molclock2&quot;, for molclock2.txt;
+&quot;travelbooks&quot;, for travelbooks.txt;
+&quot;bestTimes&quot;, for bestTimes.txt;
+&quot;bostonc&quot;, for bostonc.txt
+</p>
+</td></tr>
+<tr valign="top"><td><code>datastore</code></td>
+<td>
+<p>Each element of this list is a character vector
+that holds the rows of a file.</p>
+</td></tr>
+<tr valign="top"><td><code>altstore</code></td>
+<td>
+<p>An alternative list.  The default alternative list 
+is used for the two files that are more than a few lines.</p>
+</td></tr>
+<tr valign="top"><td><code>showNames</code></td>
+<td>
+<p>if <code>TRUE</code>, returns the names of available datasets.</p>
+</td></tr>
+</table>
+
+
+<h3>Value</h3>
+
+  
+<p>An ASCII file is output to the current working directory. The names of
+all available datasets are returned invisibly.
+</p>
+
+
+<h3>Author(s)</h3>
+
+<p>J.H. Maindonald</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+datafile(file="", showNames=TRUE)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>DAAG</em> version 1.25.4 <a href="00Index.html">Index</a>]</div>
+</div></body></html>
