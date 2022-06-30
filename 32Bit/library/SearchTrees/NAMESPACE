@@ -1,8 +1,0 @@
-useDynLib(SearchTrees, .registration=TRUE, .fixes ="C_")
-import(methods)
-exportPattern(knnLookup,
-              createTree,
-              rectLookup)
-exportClass(SearchTree,
-            QuadTree
-            )
